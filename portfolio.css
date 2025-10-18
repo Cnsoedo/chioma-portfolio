@@ -320,7 +320,6 @@ h1 {
 .service-section {
   padding: 1rem;
   background-color: #ddeadd;
-  padding-bottom: 10px;
 }
 .about-intro {
   width: 1000px;
@@ -395,17 +394,15 @@ h1 {
   background-color: #0f2027;
   color: white;
   text-align: center;
+  margin: 0;
+  padding: 50px;
 }
 .section-title {
   color: #fff;
   width: 100%;
   height: auto;
-
   font-size: 30px;
-  margin-top: 50px;
-  margin-bottom: 30px;
   font-weight: 800;
-  padding-top: 40px;
 }
 
 .projects-description {
