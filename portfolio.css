@@ -76,7 +76,7 @@ body {
 }
 
 .hero-content {
-  width: 600px;
+  max-width: 600px;
 }
 
 .subtitle {
@@ -140,6 +140,7 @@ h1 {
   font-size: 30px;
   padding-bottom: 10px;
   text-align: center;
+  line-height: 1.5;
 }
 
 .underline {
@@ -148,13 +149,6 @@ h1 {
   background-color: green;
   margin: 10px auto 30px;
   border-radius: 2px;
-}
-
-.about-intro {
-  width: 1000px;
-  margin: 0 auto 20px;
-  font-size: 16px;
-  line-height: 1.6;
 }
 
 .about-cards {
@@ -293,6 +287,8 @@ h1 {
 
 .line {
   border: 1px solid rgb(136, 93, 241);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 /* CENTER BUTTON */
@@ -322,7 +318,7 @@ h1 {
   background-color: #ddeadd;
 }
 .about-intro {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto 20px;
   font-size: 16px;
   font-weight: 500;
@@ -381,11 +377,13 @@ h1 {
   margin-top: 0;
   margin-bottom: 10;
   color: white;
+  line-height: 1.5;
 }
 .cta-subheading {
   font-size: 14px;
   color: rgb(221, 221, 221);
   margin-bottom: 30px;
+  line-height: 1.5;
 }
 
 /* CERTIFICATION SECTION */
@@ -406,7 +404,7 @@ h1 {
 }
 
 .projects-description {
-  width: 700px;
+  max-width: 700px;
   margin: 0 auto 50px;
   font-size: 16px;
   font-weight: 500;
@@ -480,6 +478,7 @@ h1 {
   margin: 0;
   font-size: 14px;
   color: #777;
+  line-height: 1.5;
 }
 
 /* CONTACT SECTION */
@@ -646,4 +645,21 @@ h1 {
   font-size: 13px;
   color: #aaa;
   margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-container a {
+    display: none;
+  }
+  .hero-section {
+    gap: 20px;
+    padding: 100px 16px 50px 16px;
+  }
+  .hero-section h1 {
+    font-size: 32px;
+    line-height: 3rem;
+  }
 }
