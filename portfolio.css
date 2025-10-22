@@ -66,13 +66,15 @@ body {
   flex-wrap: wrap;
   column-gap: 3rem;
   background-color: #ddeadd;
+  width: 100%;
 }
 
 .profile-pic {
   width: 100%;
   height: 500px;
   object-fit: cover;
-  border: 10px solid #f3f3df;
+  margin: auto;
+  border: 6px solid #f3f3df;
 }
 
 .hero-content {
@@ -129,6 +131,7 @@ h1 {
 /* ABOUT SECTION */
 
 .about-section {
+  width: 100%;
   padding: 1rem;
   background-color: #ddeadd;
   text-align: center;
@@ -223,6 +226,7 @@ h1 {
   padding: 50px;
   background-color: #fff;
   text-align: center;
+  width: 100%;
 }
 .projects-decription {
   max-width: 700px;
@@ -251,6 +255,7 @@ h1 {
 }
 
 .card-img {
+  width: 100%;
   height: 180px;
   background-size: cover;
   background-position: center;
@@ -394,6 +399,7 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 50px;
+  width: 100%;
 }
 .section-title {
   color: #fff;
@@ -656,10 +662,13 @@ h1 {
   }
   .hero-section {
     gap: 20px;
-    padding: 100px 16px 50px 16px;
+    padding: 100px 16px 40px 16px;
   }
   .hero-section h1 {
     font-size: 32px;
     line-height: 3rem;
+  }
+  .about-section {
+    margin: auto;
   }
 }
